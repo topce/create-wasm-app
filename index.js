@@ -1,3 +1,4 @@
-import * as wasm from "hello-wasm-pack";
+import * as wasm from "cirilica";
 
-wasm.greet();
+//wasm.greet();
+alert(wasm.to_serbian_cyrillic("ana voli milovana"));

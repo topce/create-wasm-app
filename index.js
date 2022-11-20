@@ -1,7 +1,5 @@
 import * as wasm from 'cirilica';
 
-document.title = wasm.to_serbian_cyrillic('ana voli milovana');
-
 document.getElementById('prepisi').onclick = function () {
   myFunction();
 };

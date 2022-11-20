@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Hello wasm-pack!</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <noscript
+      >This page contains webassembly and javascript content, please enable
+      javascript in your browser.</noscript
+    >
+    <script src="./bootstrap.js"></script>
+
+    <h1 class="text-6xl font-bold underline flex justify-center">ћирилица</h1>
+
+    <div class="flex justify-center">
+      <div class="mb-3 xl:w-96">
+        <label for="latinica" class="inline-block mb-2 text-gray-700"
+          >latinica</label
+        >
+        <textarea
+          id="latinica"
+          class="form-control block w-full px-3 py-1.5 text-base font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none"
+          rows="10"
+        >
+        </textarea>
+      </div>
+    </div>
+    <div class="flex justify-center">
+      <div class="mb-3 xl:w-96">
+        <label for="cirilica" class="inline-block mb-2 text-gray-700"
+          >ћирилица</label
+        >
+        <textarea
+          id="cirilica"
+          class="form-control block w-full px-3 py-1.5 text-base font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none"
+          rows="10"
+        >
+        </textarea>
+      </div>
+    </div>
+    <div class="flex justify-center">
+      <button
+        id="prepisi"
+        class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+      >
+        Препиши
+      </button>
+    </div>
+  </body>
+</html>

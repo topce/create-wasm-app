@@ -1,9 +1,13 @@
-Translate UTF-8 serbian latin text to serbian cyrillic
-Also support replace of 2 letters characters that represent one letter :
-         "nj" -> "ǌ"
-         "lj" -> "ǉ"
-         "dž" -> "ǆ"
-         "Nj" -> "ǋ"
-         "Lj" -> "ǈ"
-         "Dž" -> "ǅ"
-<https://topce.github.io/create-wasm-app/>
+
+# Translate UTF-8 Serbian Latin text to Serbian Cyrillic
+
+Support replace of 2 letters (ASCII charachters) with one letter UTF-8 characther:
+
+* "lj" -> "ǉ" -> "љ"
+* "nj" -> "ǌ" -> "њ"
+* "dž" -> "ǆ" -> "џ"
+* "Lj" -> "ǈ" -> "Љ"
+* "Nj" -> "ǋ" -> "Њ"
+* "Dž" -> "ǅ" -> "Џ"
+
+# <https://topce.github.io/create-wasm-app/>

@@ -35,7 +35,7 @@ eval("__webpack_require__.a(module, async (__webpack_handle_async_dependencies__
   \************************************************/
 /***/ ((module, exports, __webpack_require__) => {
 
-eval("module.exports = __webpack_require__.v(exports, module.id, \"75f89763452b9192d830\");\n\n//# sourceURL=webpack://create-wasm-app/./node_modules/cirilica/cirilica_bg.wasm?");
+eval("module.exports = __webpack_require__.v(exports, module.id, \"463628ba4638b7506e15\");\n\n//# sourceURL=webpack://create-wasm-app/./node_modules/cirilica/cirilica_bg.wasm?");
 
 /***/ })
 

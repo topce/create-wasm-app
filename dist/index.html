@@ -67,11 +67,10 @@ ABCĆČDĐ Dž EFGHIJKL Lj MN Nj OPRSŠTUVŽZ
         let fileReader = new FileReader();
         fileReader.readAsText(file);
         fileReader.onloadend = function () {
-          alert(fileReader.result);
           document.getElementById('latinica').innerText = fileReader.result;
         };
         fileReader.onerror = function () {
-          alert(fileReader.error);
+          console.error(fileReader.error);
         };
       }
     </script>

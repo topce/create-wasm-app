@@ -37,6 +37,9 @@ ABCĆČDĐ Dž EFGHIJKL Lj MN Nj OPRSŠTUVŽZ
       </div>
     </div>
     <div class="flex justify-center">
+      <input onchange="readFile(this)" type="file" accept="text/plain,.txt" />
+    </div>
+    <div class="flex justify-center">
       <div class="mb-3 xl:w-96">
         <label for="cirilica" class="inline-block mb-2 text-gray-700"
           >Ћирилица</label
@@ -58,5 +61,19 @@ ABCĆČDĐ Dž EFGHIJKL Lj MN Nj OPRSŠTUVŽZ
         Препиши
       </button>
     </div>
+    <script>
+      function readFile(input) {
+        let file = input.files[0];
+        let fileReader = new FileReader();
+        fileReader.readAsText(file);
+        fileReader.onloadend = function () {
+          alert(fileReader.result);
+          document.getElementById('latinica').innerText = fileReader.result;
+        };
+        fileReader.onerror = function () {
+          alert(fileReader.error);
+        };
+      }
+    </script>
   </body>
 </html>

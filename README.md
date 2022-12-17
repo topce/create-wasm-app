@@ -10,4 +10,4 @@ Support replace of 2 letters (ASCII charachters) digraphs with one letter UTF-8 
 * "Nj" -> "ǋ" -> "Њ"
 * "Dž" -> "ǅ" -> "Џ"
 
-# <https://topce.github.io/create-wasm-app/>
+# <https://topce.github.io/latinica2cirilica/>
